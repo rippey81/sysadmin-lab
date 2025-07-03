@@ -1,22 +1,67 @@
-# 👋 Hey, I’m Robert
+# 🛠️ SysAdmin Home Lab: 60-Day Training Bootcamp
 
-🎯 **Goal**: Become a highly skilled System Administrator and eventually break into Cybersecurity.
+Welcome to my personal 60-day system administration lab journey. This project documents my hands-on learning process to become a competent Linux and Windows systems administrator, while building a strong foundation in scripting, automation, and real-world IT infrastructure.
 
-🖥️ **Current Focus**:
-- Mastering Linux and Windows Server administration
-- Building and documenting my own home lab in VirtualBox
-- Practicing Bash, PowerShell, and Python scripting
-- Studying for certifications like Security+ and AZ-104
-- Exploring tools like pfSense, Active Directory, and Kali Linux
+---
 
-⚙️ **What I’m Working On**:
-- A 60-day sysadmin bootcamp I built with ChatGPT (with notes in a physical notebook)
-- Posting scripts and documentation for others to learn from
-- Building a public portfolio of skills to land a sysadmin job
+## 📅 Daily Learning Schedule
 
-📚 **Background**:
-- U.S. Marine Corps Veteran 
-- 9+ years of IT experience (mostly in Help Desk, 7 months in Cybersecurity, now leveling up)
-- Creator of GSL Media LLC - an upstart digital media company that manages 2 Instagram-based lifestyle brands: Grown & Sexy Life and The Invest Set (entrepreneur at heart)
+Each day is structured with:
+- ✅ Lab tasks
+- 🧠 In-depth concepts
+- 💻 Practice commands/scripts
+- 📓 Notes for review
 
-🌍 Let’s connect!
+---
+
+## 🗂️ Repository Structure
+
+sysadmin-lab/
+│
+├── day-by-day/
+│ ├── day1-linux-basics.md
+│ ├── day2-scripting-intro.md
+│ └── ...
+│
+├── scripts/
+│ ├── sysinfo.sh
+│ ├── get-system-info.ps1
+│ └── ...
+│
+└── README.md
+
+
+
+---
+
+## 🛠️ Skills Covered
+
+- Linux (Ubuntu Server/Desktop, CLI)
+- Windows Server 2022 (Active Directory, PowerShell)
+- Networking fundamentals
+- Bash and PowerShell scripting
+- User and permission management
+- Package and update management
+- Sysinternals tools
+- Core troubleshooting
+- Git & GitHub basics
+
+---
+
+## 📚 Tools Used
+
+- VirtualBox
+- Ubuntu Server / Desktop
+- Windows Server 2022
+- pfSense
+- Kali Linux
+- PowerShell 7
+- Git + GitHub
+- VS Code
+
+---
+
+## 🚀 Purpose
+
+This lab is part of my personal mission to escape the Help Desk ceiling, gain real skills, and land a better-paying job as a System Administrator or InfoSec Analyst.
+
