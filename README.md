@@ -15,8 +15,8 @@
 - Building a public portfolio of skills to land a sysadmin job
 
 📚 **Background**:
-- U.S. Marine Corps Veteran (General Under Honorable Discharge)
-- 9+ years of IT experience (mostly in Help Desk, now leveling up)
-- Creator of GSL Media & The Invest Set (entrepreneur at heart)
+- U.S. Marine Corps Veteran 
+- 9+ years of IT experience (mostly in Help Desk, 7 months in Cybersecurity, now leveling up)
+- Creator of GSL Media LLC - an upstart digital media company that manages 2 Instagram-based lifestyle brands: Grown & Sexy Life and The Invest Set (entrepreneur at heart)
 
 🌍 Let’s connect!
