@@ -1,7 +1,6 @@
 📄 day2-bash-scripting.md
 markdown
-Copy
-Edit
+
 # 🧠 Day 2 – Bash Scripting Essentials (SysAdmin Lab)
 
 Welcome to Day 2 of the 60-day SysAdmin Bootcamp! Today focused on building foundational Bash scripting skills inside the Ubuntu Server/Desktop VM. These are critical for task automation, system management, and Linux fluency.
@@ -32,6 +31,7 @@ echo "Logged-in user: $(whoami)"
 echo "IP Address: $(hostname -I)"
 echo "Disk Usage:"
 df -h
+
 🔍 Command Breakdown
 Command	Description
 #!/bin/bash	Declares the script interpreter (Bash)
