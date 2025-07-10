@@ -26,3 +26,14 @@ To run a PowerShell script, open PowerShell and execute:
 
 ```powershell
 .\scriptname.ps1
+
+If needed, allow script execution with:
+
+powershell
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+🧠 Notes
+Tested on Windows Server 2022
+
+Run PowerShell as Administrator when necessary
