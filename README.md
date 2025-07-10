@@ -14,21 +14,31 @@ Each day is structured with:
 
 ---
 
-## 🗂️ Repository Structure
-
 sysadmin-lab/
 │
-├── day-by-day/
-│ ├── day1-linux-basics.md
-│ ├── day2-scripting-intro.md
-│ └── ...
+├── README.md                   # Overview of your lab and learning goals
 │
-├── scripts/
-│ ├── sysinfo.sh
-│ ├── get-system-info.ps1
-│ └── ...
+├── day-by-day/                 # Daily summaries and notes
+│   ├── day1-linux-basics.md
+│   ├── day2-bash-scripting.md
+│   ├── day3-local-admin-mastery.md
+│   ├── day4-automation-basics.md
+│   └── day5-user-and-service-management.md
 │
-└── README.md
+├── scripts/                    # Your scripts for both Linux and Windows
+│   ├── linux/
+│   │   ├── sysinfo.sh
+│   │   └── check_user.sh
+│   │
+│   └── windows/
+│       ├── get-system-info.ps1
+│       └── check-service.ps1
+│
+├── reference/                  # Cheat sheets, command lists, and key study material
+│   └── linux-cheatsheet.md
+│
+└── .gitignore                  # (Optional) Add this later to ignore system files or secrets
+
 
 
 
