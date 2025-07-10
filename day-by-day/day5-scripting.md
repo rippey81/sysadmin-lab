@@ -41,6 +41,9 @@ if (Get-Service -Name $service -ErrorAction SilentlyContinue) {
     Write-Host "❌ Service '$service' not found."
 }
 
-🧠 Reflection
+🧠 Reflection:
+Today I crossed a threshold: no longer just a user — now a builder of tools.
+The ability to write bash and PowerShell scripts unlocks efficiency, deeper system control, and real job-ready value.
+Whether checking users, restarting services, or automating updates — I'm no longer doing things manually. I command systems.
 Scripting transforms you from operator to orchestrator.
 Today I learned how to build small tools that reduce repetitive work and show I'm thinking like a true sysadmin.
