@@ -72,7 +72,9 @@ Mastering Regular Expressions by Jeffrey Friedl
 
 CompTIA Network+ and Security+ guides
 
-Certs I'm Studying For
+---
+
+## Certs I'm Studying For
 
 CompTIA Security+ ✅ In Progress
 
@@ -114,7 +116,7 @@ AWS Cloud Practitioner → SysOps Admin (later)
 
 ## 🚀 Purpose
 
-This lab is part of my personal mission to escape the Help Desk ceiling, gain real skills, and to transition into a high-level **System Administrator** or **Cloud Operations** role with strong DevOps and security foundations.
+This lab is part of my personal mission to escape the Help Desk ceiling, build real infrastructure and automation skills, and transition into a high-level System Administrator or Cloud Operations role with strong DevOps and security foundations.
 
 ---
 
