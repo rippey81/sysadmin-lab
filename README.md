@@ -1,6 +1,6 @@
 # 🛠️ SysAdmin Home Lab: 60-Day Training Bootcamp
 
-Welcome to my personal 60-day system administration lab journey. This project documents my hands-on learning process to become a competent Linux and Windows systems administrator, while building a strong foundation in scripting, automation, and real-world IT infrastructure.
+Welcome to my personal 60-day system administration lab journey. This project documents my hands-on learning process to become a competent Linux and Windows systems administrator, structured as a day-by-day hands-on journey to sharpen core skills in Linux, Windows, networking, scripting, automation, and cloud technologies, and real-world IT infrastructure.
 
 ---
 
@@ -14,33 +14,73 @@ Each day is structured with:
 
 ---
 
+## 📁 Repository Structure
+
+```bash
 sysadmin-lab/
-│
-├── README.md                   # Overview of your lab and learning goals
-│
-├── day-by-day/                 # Daily summaries and notes
+├── day-by-day/                  # Daily journal logs
 │   ├── day1-linux-basics.md
-│   ├── day2-bash-scripting.md
-│   ├── day3-local-admin-mastery.md
-│   ├── day4-automation-basics.md
-│   └── day5-user-and-service-management.md
-│
-├── scripts/                    # Your scripts for both Linux and Windows
-│   ├── linux/
+│   ├── day2-scripting-intro.md
+│   ├── ...
+│   └── day6-regex-intro.md
+├── scripts/                     # Bash & PowerShell scripts
+│   ├── linux/                   # Bash scripts
 │   │   ├── sysinfo.sh
-│   │   └── check_user.sh
-│   │
-│   └── windows/
+│   │   ├── check-services.sh
+│   │   └── ...
+│   └── windows/                 # PowerShell scripts
 │       ├── get-system-info.ps1
-│       └── check-service.ps1
-│
-├── reference/                  # Cheat sheets, command lists, and key study material
-│   └── linux-cheatsheet.md
-│
-└── .gitignore                  # (Optional) Add this later to ignore system files or secrets
+│       ├── get-services.ps1
+│       └── ...
+├── reference/                   # Notes & concepts
+│   ├── linux.md
+│   ├── windows.md
+│   └── scripting-programming.md
+└── README.md                    # You're here!
 
+---
 
+📚 Topics Covered
+✅ Linux CLI, navigation, and permissions
 
+✅ Bash scripting fundamentals
+
+✅ PowerShell scripting & Windows tools
+
+✅ Regex syntax & basic pattern matching
+
+✅ Working with services (systemctl, Get-Service)
+
+✅ User and group management
+
+✅ Scripting automation practice
+
+🚧 Coming soon: Git, Python scripting, Windows Server, Active Directory, Azure, and AWS
+
+---
+
+📘 Tools & Resources I'm Using
+Books
+
+The Linux Command Line by William Shotts
+
+Learn Windows PowerShell in a Month of Lunches by Don Jones & Jeff Hicks
+
+The Practice of System & Network Administration by Limoncelli, Hogan, Chalup
+
+Mastering Regular Expressions by Jeffrey Friedl
+
+CompTIA Network+ and Security+ guides
+
+Certs I'm Studying For
+
+CompTIA Security+ ✅ In Progress
+
+Microsoft AZ-104 (Azure Admin)
+
+SC-300 (Identity & Access Admin)
+
+AWS Cloud Practitioner → SysOps Admin (later)
 
 ---
 
@@ -55,6 +95,7 @@ sysadmin-lab/
 - Sysinternals tools
 - Core troubleshooting
 - Git & GitHub basics
+- Regular Expressions (Regex)
 
 ---
 
@@ -73,5 +114,10 @@ sysadmin-lab/
 
 ## 🚀 Purpose
 
-This lab is part of my personal mission to escape the Help Desk ceiling, gain real skills, and land a better-paying job as a System Administrator or InfoSec Analyst.
+This lab is part of my personal mission to escape the Help Desk ceiling, gain real skills, and to transition into a high-level **System Administrator** or **Cloud Operations** role with strong DevOps and security foundations.
 
+---
+
+💬 Contact
+Robert Rippey on LinkedIn
+GitHub: @rippey81
