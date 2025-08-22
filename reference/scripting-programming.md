@@ -54,6 +54,8 @@ bash
 chmod +x script.sh
 ./script.sh
 
+---
+
 ## 💥 PowerShell Scripting Quick Notes
 
 ### 🔹 Variables
@@ -83,6 +85,8 @@ function Greet($name) {
     "Hello, $name!"
 }
 Greet "SysAdmin"
+
+---
 
 ## 🧩 Regular Expressions (Regex)
 Regex lets you search, validate, and manipulate text with patterns.
@@ -117,6 +121,7 @@ $ — End of line
 
 🧠 Practice: Use grep -E, sed, or awk for regex in Linux; Select-String in PowerShell.
 
+---
 
 ##⚙️ Helpful Practices
 - Use set -x in Bash or Set-PSDebug -Trace 1 in PowerShell to debug.
@@ -213,6 +218,7 @@ Why it matters: Knowing both expands your job opportunities and makes you more v
 
 Also helps with automation tools like Ansible (mostly Linux) and Windows Admin Center/DSC (Windows).
 
+---
 
 ## 🚀 Coming Soon
 Git automation in scripts
