@@ -34,18 +34,26 @@ sed 's/ERROR/WARNING/g' logfile.txt
 
 # Extract usernames from auth log
 awk '/session opened/ {print $NF}' /var/log/auth.log
-🖥️ PowerShell Practice
-powershell
+```
+
+---
+
+## 🖥️ PowerShell Practice
+```powershell
 
 # Regex match
 "test@example.com" -match '\w+@\w+\.\w+'
 
 # Use Select-String to find errors
 Get-Content .\system.log | Select-String -Pattern "error"
+```
+
+---
 
 ✅ Takeaways
-Regex is powerful but takes practice
+- Regex is powerful but takes practice
 
-Essential for scripting, parsing logs, automation
+- Essential for scripting, parsing logs, automation
+
 
 Next up: deeper dive into practical uses & custom regex tools
