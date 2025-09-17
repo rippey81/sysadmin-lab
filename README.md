@@ -37,10 +37,11 @@ sysadmin-lab/
 │   ├── windows.md
 │   └── scripting-programming.md
 └── README.md                    # You're here!
-
+```
 ---
 
 📚 Topics Covered
+
 ✅ Linux CLI, navigation, and permissions
 
 ✅ Bash scripting fundamentals
@@ -60,29 +61,30 @@ sysadmin-lab/
 ---
 
 📘 Tools & Resources I'm Using
+
 Books
 
-The Linux Command Line by William Shotts
+- The Linux Command Line by William Shotts
 
-Learn Windows PowerShell in a Month of Lunches by Don Jones & Jeff Hicks
+- Learn Windows PowerShell in a Month of Lunches by Don Jones & Jeff Hicks
 
-The Practice of System & Network Administration by Limoncelli, Hogan, Chalup
+- The Practice of System & Network Administration by Limoncelli, Hogan, Chalup
 
-Mastering Regular Expressions by Jeffrey Friedl
+- Mastering Regular Expressions by Jeffrey Friedl
 
-CompTIA Network+ and Security+ guides
+- CompTIA Network+ and Security+ guides
 
 ---
 
 ## Certs I'm Studying For
 
-CompTIA Security+ ✅ In Progress
+- CompTIA Security+ ✅ In Progress
 
-Microsoft AZ-104 (Azure Admin)
+- Microsoft AZ-104 (Azure Admin)
 
-SC-300 (Identity & Access Admin)
+- SC-300 (Identity & Access Admin)
 
-AWS Cloud Practitioner → SysOps Admin (later)
+- AWS Cloud Practitioner → SysOps Admin (later)
 
 ---
 
