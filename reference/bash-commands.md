@@ -4,54 +4,71 @@
 ```bash
 name="Robert"
 echo "Hello $name"
+```
 
 📜 Conditionals
-bash
+```bash
 
 if [ "$name" == "Robert" ]; then
   echo "Name matches"
 else
   echo "Name does not match"
 fi
+```
+
 🔁 Loops
 For Loop
-bash
+```bash
 
 for i in {1..5}; do
   echo "Number $i"
 done
+```
+
 While Loop
-bash
+```bash
 
 count=1
 while [ $count -le 5 ]; do
   echo $count
   ((count++))
 done
+```
+
 🔧 Functions
-bash
+```bash
 
 greet() {
   echo "Hi there!"
 }
 greet
+```
+
 📂 File Checks
-bash
+```bash
 
 if [ -f "myfile.txt" ]; then
   echo "File exists"
 fi
+```
+
 💣 Exit Status
-bash
+```bash
 
 command
 echo $?
+```
+
 🔌 Command Substitution
-bash
+```bash
 
 DATE=$(date)
 echo "Today is $DATE"
-✅ Best Practices
-Always #!/bin/bash at the top of scripts
+```
+---
 
-Use set -euo pipefail for safer scripting
+✅ Best Practices
+
+- Always #!/bin/bash at the top of scripts
+
+- Use set -euo pipefail for safer scripting
