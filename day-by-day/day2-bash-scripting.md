@@ -31,17 +31,18 @@ echo "Logged-in user: $(whoami)"
 echo "IP Address: $(hostname -I)"
 echo "Disk Usage:"
 df -h
+```
 
 🔍 Command Breakdown
 Command	Description
-#!/bin/bash	Declares the script interpreter (Bash)
-echo	Prints text to the terminal
-$(...)	Command substitution — runs the command and substitutes its output
-hostname	Displays the system hostname
-uptime -p	Shows how long the system has been running in human-readable format
-whoami	Prints current username
-hostname -I	Returns all assigned IP addresses
-df -h	Shows disk usage in human-readable format
+- #!/bin/bash	Declares the script interpreter (Bash)
+- echo	Prints text to the terminal
+- $(...)	Command substitution — runs the command and substitutes its output
+- hostname	Displays the system hostname
+- uptime -p	Shows how long the system has been running in human-readable format
+- whoami	Prints current username
+- hostname -I	Returns all assigned IP addresses
+- df -h	Shows disk usage in human-readable format
 
 🔐 Permissions
 Make the script executable:
@@ -66,27 +67,34 @@ bash
 
 #!/bin/bash
 echo "Hello, $(whoami)! Today is $(date +%A), the current time is $(date +"%T")."
+
+---
+
 🟡 Notebook Highlights
+
 🟨 Commands to highlight:
-chmod, echo, df -h, hostname -I, uptime -p, whoami
+
+- chmod, echo, df -h, hostname -I, uptime -p, whoami
 
 🟦 Concepts to note in blue:
 
-Shebang (#!/bin/bash)
+- Shebang (#!/bin/bash)
 
-Script permissions
+- Script permissions
 
-Command substitution $(...)
+- Command substitution $(...)
 
 🟩 Definitions to write in green:
 
-Variable
+- Variable
 
-Script
+- Script
 
-Executable file
+- Executable file
 
-Interpreter
+- Interpreter
+
+---
 
 🧠 Takeaway
 Even the simplest script can save hours of repetitive work. Every good sysadmin builds a toolkit of custom scripts — and today you started yours.
