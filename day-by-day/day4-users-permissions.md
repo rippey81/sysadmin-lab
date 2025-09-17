@@ -31,28 +31,35 @@ sudo usermod -aG developers johndoe
 
 # Show user group membership
 groups johndoe
+```
+
 🔒 File Permissions
 Linux Permissions Breakdown:
+
 Each file has owner, group, and others permission categories.
 
-r = read (4)
+- r = read (4)
 
-w = write (2)
+- w = write (2)
 
-x = execute (1)
+- x = execute (1)
 
 Example:
 diff
 
+```bash
+
 -rwxr-xr--  1 robert developers 1234 Jul 10 14:35 script.sh
-Owner: robert → read/write/execute
+```
 
-Group: developers → read/execute
+- Owner: robert → read/write/execute
 
-Others: → read only
+- Group: developers → read/execute
+
+- Others: → read only
 
 🛠 Permission Commands
-bash
+```bash
 
 # Change ownership
 sudo chown robert:developers script.sh
@@ -64,78 +71,88 @@ chmod g-w script.sh   # Remove write from group
 # Change permissions using numeric mode
 chmod 755 script.sh   # rwxr-xr-x
 chmod 644 file.txt    # rw-r--r--
+```
 
+---
 
 🪟 Windows User & Group Management
+
 Learned how to manage users via:
 
-Local Users and Groups (lusrmgr.msc)
+- Local Users and Groups (lusrmgr.msc)
 
-Computer Management > Local Users and Groups
+- Computer Management > Local Users and Groups
 
 Understood NTFS permissions:
 
-Permissions include: Full Control, Modify, Read & Execute, Read, Write
+- Permissions include: Full Control, Modify, Read & Execute, Read, Write
 
-Permissions can be set per user or group
+- Permissions can be set per user or group
 
-NTFS allows explicit deny, inheritance, and auditing
+- NTFS allows explicit deny, inheritance, and auditing
 
-File shares are controlled by combining Share permissions and NTFS permissions:
+- File shares are controlled by combining Share permissions and NTFS permissions:
 
-Most restrictive permission wins.
+- Most restrictive permission wins.
 
 🧩 Example Concepts:
-A user may have Full Control via group membership but Deny applied individually will override it.
 
-Used icacls command line tool to inspect/set permissions:
+- A user may have Full Control via group membership but Deny applied individually will override it.
 
-cmd
+- Used icacls command line tool to inspect/set permissions:
+
+```cmd
 
 icacls "C:\TestFolder"
 icacls "C:\TestFolder" /grant johndoe:(M)
-Understood how Active Directory (AD) is used in enterprises to centralize user/group management.
+```
 
-Saw how Group Policy Objects (GPOs) apply system-wide security and user access policies.
+- Understood how Active Directory (AD) is used in enterprises to centralize user/group management.
 
-🔐 Key Takeaways
-Both Linux and Windows enforce the principle of least privilege.
-
-Groups make permissions scalable — whether on Ubuntu or Windows Server.
-
-The tools differ, but the goal is the same: control who can access what, and how.
-
-File ownership and permission troubleshooting is a critical daily task in sysadmin work.
-
-
+- Saw how Group Policy Objects (GPOs) apply system-wide security and user access policies.
 
 🔐 Key Takeaways
-Principle of least privilege is essential: users should only have access to what they need.
 
-Using groups simplifies permission management for teams.
+- Both Linux and Windows enforce the principle of least privilege.
 
-chmod, chown, and chgrp are vital tools in a sysadmin's toolkit.
+- Groups make permissions scalable — whether on Ubuntu or Windows Server.
 
-Both Linux and Windows enforce the principle of least privilege.
+- The tools differ, but the goal is the same: control who can access what, and how.
 
-Groups make permissions scalable — whether on Ubuntu or Windows Server.
+- File ownership and permission troubleshooting is a critical daily task in sysadmin work.
 
-The tools differ, but the goal is the same: control who can access what, and how.
 
-File ownership and permission troubleshooting is a critical daily task in sysadmin work.
+
+🔐 Key Takeaways
+
+- Principle of least privilege is essential: users should only have access to what they need.
+
+- Using groups simplifies permission management for teams.
+
+- chmod, chown, and chgrp are vital tools in a sysadmin's toolkit.
+
+- Both Linux and Windows enforce the principle of least privilege.
+
+- Groups make permissions scalable — whether on Ubuntu or Windows Server.
+
+- The tools differ, but the goal is the same: control who can access what, and how.
+
+- File ownership and permission troubleshooting is a critical daily task in sysadmin work.
 
 📌 What I Practiced Today
-Created new users and groups on my Ubuntu VM
 
-Assigned users to multiple groups
+- Created new users and groups on my Ubuntu VM
 
-Modified file permissions and ownership
+- Assigned users to multiple groups
 
-Used ls -l, id, getent, whoami, and sudo to observe system behavior
+- Modified file permissions and ownership
 
-Broke down chmod numeric values and practiced converting between symbolic and numeric modes
+- Used ls -l, id, getent, whoami, and sudo to observe system behavior
+
+- Broke down chmod numeric values and practiced converting between symbolic and numeric modes
 
 🧠 Reflection
+
 Today was eye-opening. I now see how important it is to understand both Linux and Windows environments, especially since most real-world sysadmin jobs are hybrid. Managing users and file security isn't just routine — it's how systems stay protected and efficient.
 
 I’m more confident now setting up users, securing files, and knowing how to troubleshoot access issues.
