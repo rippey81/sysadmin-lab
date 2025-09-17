@@ -114,6 +114,12 @@ AWS Cloud Practitioner → SysOps Admin (later)
 
 ---
 
+## ☁️ Cloud Projects
+
+- [Local VM to Azure VHD Migration Lab](https://github.com/rippey81/sysadmin-cloud-vhd-migration)
+
+---
+
 ## 🚀 Purpose
 
 This lab is part of my personal mission to escape the Help Desk ceiling, build real infrastructure and automation skills, and transition into a high-level System Administrator or Cloud Operations role with strong DevOps and security foundations.
