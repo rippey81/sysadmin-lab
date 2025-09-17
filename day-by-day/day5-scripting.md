@@ -22,16 +22,19 @@ if id "$user" &>/dev/null; then
 else
   echo "❌ User '$user' does not exist."
 fi
+```
 
+---
 
 🪟 PowerShell Scripting (Windows)
-Learned how .ps1 files are used for automation
 
-Wrote a PowerShell script to check for a Windows service
+- Learned how .ps1 files are used for automation
 
-Learned that PowerShell returns objects, not just strings
+- Wrote a PowerShell script to check for a Windows service
 
-powershell
+- Learned that PowerShell returns objects, not just strings
+
+```powershell
 
 $service = Read-Host "Enter a Windows service name"
 
@@ -40,10 +43,15 @@ if (Get-Service -Name $service -ErrorAction SilentlyContinue) {
 } else {
     Write-Host "❌ Service '$service' not found."
 }
+```
+
 
 🧠 Reflection:
+
 Today I crossed a threshold: no longer just a user — now a builder of tools.
-The ability to write bash and PowerShell scripts unlocks efficiency, deeper system control, and real job-ready value.
-Whether checking users, restarting services, or automating updates — I'm no longer doing things manually. I command systems.
-Scripting transforms you from operator to orchestrator.
+
+- The ability to write bash and PowerShell scripts unlocks efficiency, deeper system control, and real job-ready value.
+- Whether checking users, restarting services, or automating updates — I'm no longer doing things manually. I command systems.
+- Scripting transforms you from operator to orchestrator.
+  
 Today I learned how to build small tools that reduce repetitive work and show I'm thinking like a true sysadmin.
