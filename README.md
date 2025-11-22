@@ -1,133 +1,228 @@
-# 🛠️ SysAdmin Home Lab: 60-Day Training Bootcamp
+# 🛠️ Hybrid SysAdmin & Cloud Engineer Home Lab — 60-Day Training Bootcamp
 
-Welcome to my personal 60-day system administration lab journey. This project documents my hands-on learning process to become a competent Linux and Windows systems administrator, structured as a day-by-day hands-on journey to sharpen core skills in Linux, Windows, networking, scripting, automation, and cloud technologies, and real-world IT infrastructure.
+Welcome to my 60-day hybrid systems engineering lab, documenting my hands-on journey from Systems Support Analyst → SysAdmin → Hybrid Infrastructure Engineer → Azure Cloud Administrator.
+
+This project is a day-by-day, lab-focused portfolio, covering:
+
+Linux & Windows Server
+
+Networking & Infrastructure
+
+Scripting & Automation (Bash + PowerShell)
+
+Azure Administration (AZ-104)
+
+Hybrid Identity (AD DS ↔ Entra ID)
+
+Intune & Device Management
+
+Azure Arc, File Sync, Backup, and DR
+
+Everything in this repo is built from real labs, real configurations, real errors, and real troubleshooting — not theory.
 
 ---
 
-## 📅 Daily Learning Schedule
+## 📅 Daily Learning Method
 
-Each day is structured with:
-- ✅ Lab tasks
-- 🧠 In-depth concepts
-- 💻 Practice commands/scripts
-- 📓 Notes for review
+Every lab day includes:
 
----
+✅ Hands-on lab tasks
 
-## 📁 Repository Structure
+🧠 Concept deep dives
 
-```bash
-sysadmin-lab/
-├── day-by-day/                  # Daily journal logs
-│   ├── day1-linux-basics.md
-│   ├── day2-scripting-intro.md
-│   ├── ...
-│   └── day6-regex-intro.md
-├── scripts/                     # Bash & PowerShell scripts
-│   ├── linux/                   # Bash scripts
-│   │   ├── sysinfo.sh
-│   │   ├── check-services.sh
-│   │   └── ...
-│   └── windows/                 # PowerShell scripts
-│       ├── get-system-info.ps1
-│       ├── get-services.ps1
-│       └── ...
-├── reference/                   # Notes & concepts
-│   ├── linux.md
-│   ├── windows.md
-│   └── scripting-programming.md
-└── README.md                    # You're here!
-```
+💻 Commands, scripts, and configs
+
+📝 Notes + troubleshooting
+
+📂 Screenshots, diagrams, and deliverables
+
+This is designed as a living, evolving technical portfolio for leveling up in IT and Cloud.
+
+📁 Repository Structure
+
+'''bash
+hybrid-sysadmin-bootcamp/
+│
+├── 00-admin/                     # Syllabus, roadmap, resources 
+│   ├── syllabus.md               # Full 60-day curriculum
+│   ├── roadmap.md                # Career roadmap & milestones
+│   └── resources.md              # Books, docs, study links
+│
+├── phase1-core-sysadmin/         # Days 1–20
+│   ├── day01-.../
+│   ├── day02-.../
+│   └── ...
+│
+├── phase2-azure-administrator/   # Days 21–40 (AZ-104)
+│   ├── day21-.../
+│   ├── day22-.../
+│   └── ...
+│
+├── phase3-hybrid-infrastructure/ # Days 41–60
+│   ├── day41-.../
+│   ├── day42-.../
+│   └── ...
+│
+├── scripts/                      # Reusable scripts
+│   ├── bash/
+│   └── powershell/
+│
+└── README.md                     # You're here!
+
+'''
 ---
 
 📚 Topics Covered
 
-✅ Linux CLI, navigation, and permissions
+🧱 Phase 1: Core SysAdmin (Days 1–20)
 
-✅ Bash scripting fundamentals
+Linux fundamentals
 
-✅ PowerShell scripting & Windows tools
+Windows Server fundamentals
 
-✅ Regex syntax & basic pattern matching
+Services, processes, logs
 
-✅ Working with services (systemctl, Get-Service)
+Local admin & permissions
 
-✅ User and group management
+Bash scripting
 
-✅ Scripting automation practice
+PowerShell automation
 
-🚧 Coming soon: Git, Python scripting, Windows Server, Active Directory, Azure, and AWS
+Regex for sysadmins
+
+Hyper-V & virtualization
+
+Active Directory & Group Policy
 
 ---
 
-📘 Tools & Resources I'm Using
+☁️ Phase 2: Azure Administrator (Days 21–40)
 
+Azure identity (Entra ID)
+
+Azure networking (VNets, NSGs, ASGs, routing)
+
+Azure Storage (Blob, Files, tiers, accounts)
+
+Azure VMs (Windows & Linux)
+
+Azure monitoring (Log Analytics, metrics, alerts)
+
+Automation (Runbooks, Update Mgmt)
+
+AZ-104 entire exam blueprint
+
+---
+
+🔗 Phase 3: Hybrid Infrastructure (Days 41–60)
+
+Azure AD Connect
+
+Password Hash Sync, PTA, Seamless SSO
+
+Hybrid Join (AADJ + HAADJ)
+
+Intune device & app management
+
+Autopilot fundamentals
+
+Azure File Sync
+
+Azure Arc
+
+Update Management
+
+Azure Backup & Site Recovery
+
+Full hybrid enterprise deployment (capstone)
+
+---
+
+##  📘 Tools & Resources I'm Using
 Books
 
-- The Linux Command Line by William Shotts
+The Linux Command Line — William Shotts
 
-- Learn Windows PowerShell in a Month of Lunches by Don Jones & Jeff Hicks
+Learn PowerShell in a Month of Lunches — Don Jones & Jeff Hicks
 
-- The Practice of System & Network Administration by Limoncelli, Hogan, Chalup
+Windows Server 2019 & PowerShell All-In-One — Sara Perrott et al.
 
-- Mastering Regular Expressions by Jeffrey Friedl
+Azure Administrator Exam Guide (AZ-104)
 
-- CompTIA Network+ and Security+ guides
+Microsoft Azure for Dummies
+
+CompTIA Security+ and Network+ guides
+
+Infrastructure Tools
+
+VirtualBox
+
+Windows Server 2019 / 2022
+
+Ubuntu Server / Desktop
+
+Kali Linux
+
+pfSense
+
+Azure Portal / CLI / Cloud Shell
+
+PowerShell 7
+
+Git & GitHub
+
+VS Code
 
 ---
 
-## Certs I'm Studying For
+## 🌐 Cloud Projects
 
-- CompTIA Security+ ✅ In Progress
+Local VM → Azure VHD Migration
+https://github.com/rippey81/sysadmin-cloud-vhd-migration
 
-- Microsoft AZ-104 (Azure Admin)
+(Additional hybrid Azure projects will be added throughout this bootcamp.)
+
+---
+
+## 🛡️ Certifications I'm Pursuing
+🎓 Active Now
+
+- Microsoft AZ-104 (Azure Administrator)
+
+- CompTIA Security+
+
+🎯 Next in Line
+
+- AZ-800 / AZ-801 (Windows Server Hybrid)
 
 - SC-300 (Identity & Access Admin)
 
-- AWS Cloud Practitioner → SysOps Admin (later)
+- AWS Cloud Practitioner → SysOps Admin (future)
 
----
-
-## 🛠️ Skills Covered
-
-- Linux (Ubuntu Server/Desktop, CLI)
-- Windows Server 2022 (Active Directory, PowerShell)
-- Networking fundamentals
-- Bash and PowerShell scripting
-- User and permission management
-- Package and update management
-- Sysinternals tools
-- Core troubleshooting
-- Git & GitHub basics
-- Regular Expressions (Regex)
-
----
-
-## 📚 Tools Used
-
-- VirtualBox
-- Ubuntu Server / Desktop
-- Windows Server 2022
-- pfSense
-- Kali Linux
-- PowerShell 7
-- Git + GitHub
-- VS Code
-
----
-
-## ☁️ Cloud Projects
-
-- [Local VM to Azure VHD Migration Lab](https://github.com/rippey81/sysadmin-cloud-vhd-migration)
-
----
+--- 
 
 ## 🚀 Purpose
 
-This lab is part of my personal mission to escape the Help Desk ceiling, build real infrastructure and automation skills, and transition into a high-level System Administrator or Cloud Operations role with strong DevOps and security foundations.
+This bootcamp is part of my mission to:
+
+- Break past the Help Desk ceiling
+
+- Become a high-level Hybrid Systems Administrator
+
+- Build deep Azure + on-prem knowledge
+
+- Move into Cloud Engineering & Automation
+
+- Document EVERYTHING publicly as a real engineering portfolio
+
+This repo is both my training system and my career accelerator.
 
 ---
 
-💬 Contact
-Robert Rippey on LinkedIn
-GitHub: @rippey81
+## 💬 Contact
+
+Robert Rippey
+
+LinkedIn: https://www.linkedin.com/in/robertrippey/
+
+GitHub: https://github.com/rippey81
