@@ -40,3 +40,28 @@
       │ CLIENT1   │                │  Azure AD │          │  Hybrid-Joined│
       │ Win10/11  │                │  Connect  │          │  Devices      │
       └───────────┘                └───────────┘          └───────────────┘
+
+```
+---
+
+## This diagram represents:
+
+# On-prem lab:
+
+- pfSense for routing/firewall
+
+- DC1 for AD DS, DNS, and potentially DHCP
+
+- SRV1 as a file server or additional roles
+
+- CLIENT1 as a domain-joined workstation
+
+# Azure:
+
+- Entra ID as the identity plane
+
+- Azure AD Connect syncing from on-prem AD
+
+- A VNet with Azure VMs
+
+- Intune managing devices via Entra ID
