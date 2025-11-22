@@ -40,7 +40,7 @@ This is designed as a living, evolving technical portfolio for leveling up in IT
 
 📁 Repository Structure
 
-'''bash
+```bash
 hybrid-sysadmin-bootcamp/
 │
 ├── 00-admin/                     # Syllabus, roadmap, resources 
@@ -69,7 +69,7 @@ hybrid-sysadmin-bootcamp/
 │
 └── README.md                     # You're here!
 
-'''
+```
 ---
 
 📚 Topics Covered
