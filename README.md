@@ -38,7 +38,9 @@ Every lab day includes:
 
 This is designed as a living, evolving technical portfolio for leveling up in IT and Cloud.
 
-📁 Repository Structure
+---
+
+## 📁 Repository Structure
 
 ```bash
 hybrid-sysadmin-bootcamp/
