@@ -87,6 +87,11 @@ This document outlines my roadmap from Systems Support Analyst → Hybrid System
 
 ---
 
+## 🧩 Phase 4 — Enterprise Hybrid Ops & Automation (15–20 Days)
+See: `00-admin/phase4-enterprise-hybrid-ops.md`
+
+---
+
 ## 🎓 Certification Roadmap
 
 **Short-Term (0–12 months):**
