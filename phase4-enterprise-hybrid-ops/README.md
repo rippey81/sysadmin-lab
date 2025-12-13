@@ -9,3 +9,12 @@ This phase adds enterprise/MSP realities on top of the Hybrid SysAdmin foundatio
 - Safe support for internal tools (C#/VBA ecosystems) with secure ops practices
 
 This phase is designed to increase employability in MSP, enterprise, and post-M&A environments.
+
+
+phase4-enterprise-hybrid-ops/
+├─ README.md
+├─ module-4-1-graph-automation/
+├─ module-4-2-azure-sql-awareness/
+├─ module-4-3-powerbi-awareness/
+├─ module-4-4-itsm-and-msp-ops/
+└─ module-4-5-internal-tools-and-secure-ops/
